@@ -1,6 +1,7 @@
 #' @include checkbox_module.R
 #' @include date_module.R
-elrsurveillerUI <- shiny::fluidPage(
+elrsurveillerUI <- function() {
+  shiny::fluidPage(
   shiny::titlePanel("Reagent Usage App"),
   shiny::sidebarLayout(
     shiny::sidebarPanel(
@@ -11,3 +12,4 @@ elrsurveillerUI <- shiny::fluidPage(
     )
   )
 )
+}

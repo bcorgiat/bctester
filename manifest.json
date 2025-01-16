@@ -1638,7 +1638,7 @@
       "checksum": "eeb41f555b2ca51605f8bb897984910e"
     },
     "DESCRIPTION": {
-      "checksum": "8c3b18e8b3f6f3bbb82904dfc188fbb8"
+      "checksum": "058f0bc5d1d817198545d398e49a0433"
     },
     "LICENSE": {
       "checksum": "8781c886ea1cd34fa075cac5011849a9"
@@ -1674,7 +1674,7 @@
       "checksum": "b17a09145283baa01009fc553eeca4c8"
     },
     "R/ui.R": {
-      "checksum": "3b3e2090b489aa39fb33effe4cf0f169"
+      "checksum": "ee7ab3dc2ec9e46eb5026c573164f85e"
     },
     "tests/testthat.R": {
       "checksum": "ca179c822032945262d1f0b3c50f175d"
