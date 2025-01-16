@@ -1,3 +1,5 @@
+options(repos = c(CRAN = "https://cran.rstudio.com"))
+
 if (!requireNamespace("remotes", quietly = TRUE)) {
   install.packages("remotes")
 }
