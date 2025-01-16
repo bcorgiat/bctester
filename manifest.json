@@ -489,7 +489,7 @@
         "Package": "fansi",
         "Title": "ANSI Control Sequence Aware String Functions",
         "Description": "Counterparts to R string manipulation functions that account for\n   the effects of ANSI text formatting control sequences.",
-        "Version": "1.0.3",
+        "Version": "1.0.6",
         "Authors@R": "c(\n    person(\"Brodie\", \"Gaslam\", email=\"brodie.gaslam@yahoo.com\",\n    role=c(\"aut\", \"cre\")),\n    person(\"Elliott\", \"Sales De Andrade\", role=\"ctb\"),\n    person(family=\"R Core Team\",\n    email=\"R-core@r-project.org\", role=\"cph\",\n    comment=\"UTF8 byte length calcs from src/util.c\"\n    ))",
         "Depends": "R (>= 3.1.0)",
         "License": "GPL-2 | GPL-3",
@@ -498,16 +498,16 @@
         "VignetteBuilder": "knitr",
         "Suggests": "unitizer, knitr, rmarkdown",
         "Imports": "grDevices, utils",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.2.3",
         "Encoding": "UTF-8",
         "Collate": "'constants.R' 'fansi-package.R' 'internal.R' 'load.R' 'misc.R'\n'nchar.R' 'strwrap.R' 'strtrim.R' 'strsplit.R' 'substr2.R'\n'trimws.R' 'tohtml.R' 'unhandled.R' 'normalize.R' 'sgr.R'",
         "NeedsCompilation": "yes",
-        "Packaged": "2022-03-24 00:52:26 UTC; bg",
+        "Packaged": "2023-12-06 00:59:41 UTC; bg",
         "Author": "Brodie Gaslam [aut, cre],\n  Elliott Sales De Andrade [ctb],\n  R Core Team [cph] (UTF8 byte length calcs from src/util.c)",
         "Maintainer": "Brodie Gaslam <brodie.gaslam@yahoo.com>",
         "Repository": "CRAN",
-        "Date/Publication": "2022-03-24 07:50:02 UTC",
-        "Built": "R 4.2.0; x86_64-w64-mingw32; 2022-05-29 00:40:22 UTC; windows",
+        "Date/Publication": "2023-12-08 03:30:02 UTC",
+        "Built": "R 4.2.3; x86_64-w64-mingw32; 2024-04-24 00:33:35 UTC; windows",
         "ExperimentalWindowsRuntime": "ucrt",
         "Archs": "x64"
       }
@@ -1491,8 +1491,8 @@
       "description": {
         "Package": "utf8",
         "Title": "Unicode Text Processing",
-        "Version": "1.2.2",
-        "Authors@R": "\n    c(person(given = c(\"Patrick\", \"O.\"),\n             family = \"Perry\",\n             role = c(\"aut\", \"cph\")),\n      person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = \"cre\",\n             email = \"krlmlr+r@mailbox.org\"),\n      person(given = \"Unicode, Inc.\",\n             role = c(\"cph\", \"dtc\"),\n             comment = \"Unicode Character Database\"))",
+        "Version": "1.2.4",
+        "Authors@R": "\n    c(person(given = c(\"Patrick\", \"O.\"),\n             family = \"Perry\",\n             role = c(\"aut\", \"cph\")),\n      person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = \"cre\",\n             email = \"kirill@cynkra.com\"),\n      person(given = \"Unicode, Inc.\",\n             role = c(\"cph\", \"dtc\"),\n             comment = \"Unicode Character Database\"))",
         "Description": "Process and print 'UTF-8' encoded international\n    text (Unicode). Input, validate, normalize, encode, format, and\n    display.",
         "License": "Apache License (== 2.0) | file LICENSE",
         "URL": "https://ptrckprry.com/r-utf8/, https://github.com/patperry/r-utf8",
@@ -1502,13 +1502,14 @@
         "VignetteBuilder": "knitr, rmarkdown",
         "Config/testthat/edition": "3",
         "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-07-24 08:19:25 UTC; kirill",
+        "Packaged": "2023-10-22 13:43:19 UTC; kirill",
         "Author": "Patrick O. Perry [aut, cph],\n  Kirill Müller [cre],\n  Unicode, Inc. [cph, dtc] (Unicode Character Database)",
-        "Maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+        "Maintainer": "Kirill Müller <kirill@cynkra.com>",
         "Repository": "CRAN",
-        "Date/Publication": "2021-07-24 15:00:02 UTC",
-        "Built": "R 4.2.0; x86_64-w64-mingw32; 2022-05-29 00:40:11 UTC; windows",
+        "Date/Publication": "2023-10-22 21:50:02 UTC",
+        "Built": "R 4.2.3; x86_64-w64-mingw32; 2024-04-24 00:33:35 UTC; windows",
         "ExperimentalWindowsRuntime": "ucrt",
         "Archs": "x64"
       }
@@ -1655,7 +1656,7 @@
       "checksum": "ed28c2c800f0d2ec3844daa7a0d630b8"
     },
     "NAMESPACE": {
-      "checksum": "0c19ef43851aeba939f0f1758768a66d"
+      "checksum": "e78e35a5ac20eff3924396426f166be5"
     },
     "R/checkbox_module.R": {
       "checksum": "4cb17ad4fa990b9c2e1a12256cf2bdd5"
@@ -1667,7 +1668,7 @@
       "checksum": "ee2431a1d5873b318ef40d5893121ae9"
     },
     "R/run_app.R": {
-      "checksum": "1bcdf43c146c630cabd8e8da81838791"
+      "checksum": "f959bca33a748ec956230c1eea1b9a92"
     },
     "R/server.R": {
       "checksum": "b17a09145283baa01009fc553eeca4c8"
