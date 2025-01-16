@@ -8,9 +8,10 @@ options(shiny.usecairo = TRUE)
 #'
 #' @export
 run_app <- function(...) {
+  ui <- elrsurveillerUI()
+  server <- function(input, output, session, ...) {
+    elrsurveillerServer(input, output, session, ...)
+  }
 
-  shiny::shinyApp(
-    ui = elrsurveillerUI(),
-    server = elrsurveillerServer(input, output, session)
-  )
+  shiny::shinyApp(ui = ui, server = server)
 }
