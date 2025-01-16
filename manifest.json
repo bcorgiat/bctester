@@ -1634,10 +1634,10 @@
       "checksum": "238aec3bed2cdb15d243d3386e5f485c"
     },
     "app.R": {
-      "checksum": "2f885793963446c1b28a5ac45d7657e4"
+      "checksum": "eeb41f555b2ca51605f8bb897984910e"
     },
     "DESCRIPTION": {
-      "checksum": "9da9403133e2f922f584af7267cea9c2"
+      "checksum": "8c3b18e8b3f6f3bbb82904dfc188fbb8"
     },
     "LICENSE": {
       "checksum": "8781c886ea1cd34fa075cac5011849a9"
@@ -1651,11 +1651,11 @@
     "man/dateUI.Rd": {
       "checksum": "a43f9f33d98b5a6f7cd0ffaa3a3f4d83"
     },
-    "man/elrsurveiller.Rd": {
-      "checksum": "4ac4f1749cdbf714cc98ee8b823a93dd"
+    "man/run_app.Rd": {
+      "checksum": "ed28c2c800f0d2ec3844daa7a0d630b8"
     },
     "NAMESPACE": {
-      "checksum": "11c2b5baf25034cbd50414d04ed4d761"
+      "checksum": "0c19ef43851aeba939f0f1758768a66d"
     },
     "R/checkbox_module.R": {
       "checksum": "4cb17ad4fa990b9c2e1a12256cf2bdd5"
@@ -1665,6 +1665,9 @@
     },
     "R/global.R": {
       "checksum": "ee2431a1d5873b318ef40d5893121ae9"
+    },
+    "R/run_app.R": {
+      "checksum": "1bcdf43c146c630cabd8e8da81838791"
     },
     "R/server.R": {
       "checksum": "b17a09145283baa01009fc553eeca4c8"
