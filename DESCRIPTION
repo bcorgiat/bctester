@@ -13,10 +13,10 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Collate: 
-    'app_elrsurveiller.R'
     'checkbox_module.R'
     'date_module.R'
     'global.R'
+    'run_app.R'
     'server.R'
     'ui.R'
 Imports: 
