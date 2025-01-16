@@ -14,5 +14,5 @@ elrsurveiller <- function(...) {
 
   server <- elrsurveillerServer
 
-  shiny::shinyApp(ui, server)
+  shiny::shinyApp(ui = ui, server = server)
 }
