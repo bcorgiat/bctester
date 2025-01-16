@@ -6,7 +6,7 @@ if (!requireNamespace("remotes", quietly = TRUE)) {
 
 # Install 'bctester' from GitHub if not already installed
 if (!requireNamespace("bctester", quietly = TRUE)) {
-  remotes::install_github("bcorgiat/bctester", auth_token = NULL)
+  remotes::install_github("bcorgiat/bctester", auth_token = Sys.getenv("GITHUB_PAT"))
 }
 
 library(bctester)
