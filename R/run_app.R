@@ -5,6 +5,8 @@ options(shiny.usecairo = TRUE)
 #' \code{elrsurveiller} is the main function that launches the app.
 #'
 #' @param ... Pass through parameters for shiny.
+#'
+#' @export
 run_app <- function(...) {
 
   shiny::shinyApp(
