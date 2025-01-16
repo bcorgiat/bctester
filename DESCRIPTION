@@ -20,7 +20,6 @@ Collate:
     'server.R'
     'ui.R'
 Imports: 
-    bctester,
     readxl,
     rlang,
     shiny
